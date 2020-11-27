@@ -24,8 +24,8 @@ namespace WindowsFormsApp8
                 RequestUri = new Uri("https://covid-19-coronavirus-statistics.p.rapidapi.com/v1/total?country=" + country),
                 Headers =
     {
-        { "x-rapidapi-key", "b3633bbe54mshc96fc5720819e6dp122b57jsncd3f6b2c086f" },
-        { "x-rapidapi-host", "covid-19-coronavirus-statistics.p.rapidapi.com" },
+        { "x-rapidapi-key", "enter your own key" },
+        { "x-rapidapi-host", "enter your own host" },
     },
             };
             using (var response = await client.SendAsync(request))
